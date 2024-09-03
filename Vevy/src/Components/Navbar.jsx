@@ -1,7 +1,7 @@
 const Navbar = () =>{
     return(
-    <div>
-     <nav className="w-full flex flex-row items-center justify-center bg-red-500 text-xl leading-10 py-4">
+    <div className="sticky top-0 bg-white">
+     <nav className="w-full flex flex-row items-center justify-center  text-xl leading-10 py-4">
         <div className="flex-1 ml-16 flex flex-row items-center gap-4">
             <img className="h-12" src="/website-svgrepo-com.svg"/>
             <h1 className="font-semibold">VEVY WEB SOLUTIONS</h1>
