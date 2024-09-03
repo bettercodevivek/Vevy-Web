@@ -7,7 +7,7 @@ const LandingPage = () => {
       <header className="bg-blue-700 text-white text-center py-16">
         <h1 className="text-4xl font-bold mb-6">Get Professional Websites at Prices That Won’t Break the Bank.</h1>
         <p className="text-2xl mb-8">Affordable, Effective, and Ready to Launch Your Business Online.</p>
-        <a href="#video" className="bg-white text-blue-700 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200">Get Started</a>
+        <a href="#video" className="bg-white text-blue-700 px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-blue-700 hover:text-white">Get Started</a>
       </header>
 
       {/* Video Section */}
@@ -40,7 +40,7 @@ const LandingPage = () => {
           
           </div>
           
-          <div className='pt-12'>
+          <div className='pt-12 pb-12'>
           <div className='flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-xl gap-2 p-4 w-max my-4 relative left-3/4 -ml-8 hover:text-white hover:cursor-pointer'>
             <FaLock></FaLock>
            <a href='https://jbansicucare.com/'> https://jbansicucare.com/</a>
