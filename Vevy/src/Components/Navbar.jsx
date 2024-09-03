@@ -1,6 +1,6 @@
 const Navbar = () =>{
     return(
-    <div className="sticky top-0 bg-white">
+    <div className="sticky top-0 bg-white z-10 font-mono">
      <nav className="w-full flex flex-row items-center justify-center  text-xl leading-10 py-4">
         <div className="flex-1 ml-16 flex flex-row items-center gap-4">
             <img className="h-12" src="/website-svgrepo-com.svg"/>
