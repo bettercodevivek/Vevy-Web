@@ -27,13 +27,18 @@ const TechShowcase = () => {
             </div>
 
             {/* Technology Logos Section */}
-            <div className="flex justify-center items-center flex-wrap mt-4">
-              {/* Replace the src attributes with the paths to your logo images */}
-              <img src="/path/to/react-logo.png" alt="React" className="h-16 w-auto m-4" />
-              <img src="/path/to/tailwind-logo.png" alt="Tailwind CSS" className="h-16 w-auto m-4" />
-              <img src="/path/to/node-logo.png" alt="Node.js" className="h-16 w-auto m-4" />
-              <img src="/path/to/mongo-logo.png" alt="MongoDB" className="h-16 w-auto m-4" />
-              {/* Add more logos as needed */}
+            <div className="flex flex-col justify-center items-center flex-wrap mt-4 bg-black bg-opacity-40 backdrop-blur-xl rounded-xl">
+                <div>
+                <h1 className='text-2xl font-semibold text-white'>Using Latest Tech Stack</h1>
+                </div>
+            <div className='flex flex-row items-center justify-center'>
+            <img src="/react-svgrepo-com.svg" alt="React" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
+              <img src="/tailwind-svgrepo-com.svg" alt="Tailwind CSS" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
+              <img src="/node-js-svgrepo-com.svg" alt="Node.js" className="h-16 w-auto m-4 drop-shadow-xl" />
+              <img src="/next-js-svgrepo-com.svg" alt="MongoDB" className="h-16 w-auto m-4 drop-shadow-xl" />
+            </div>
+              
+              
             </div>
           </div>
 
