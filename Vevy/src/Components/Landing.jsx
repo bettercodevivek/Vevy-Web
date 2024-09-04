@@ -2,7 +2,7 @@ import React from 'react';
 import {  FaLock } from 'react-icons/fa';
 const LandingPage = () => {
   return (
-    <div className=" min-h-screen-2xl relative z-0 font-mono">
+    <div className=" min-h-screen-2xl relative z-0 font-sans">
       {/* Hero Section */}
       <header className="bg-blue-700 text-white text-center py-16 px-4">
         <h1 className="text-3xl sm:text-4xl font-bold mb-6">Get Professional Websites at Prices That Won’t Break the Bank.</h1>
