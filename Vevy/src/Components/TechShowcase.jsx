@@ -16,14 +16,24 @@ const TechShowcase = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-8">
           
           {/* Video Section */}
-          <div className="flex justify-center w-full lg:w-1/2">
-            <div className="bg-white bg-opacity-40 backdrop-blur-xl p-2 shadow-xl rounded-lg overflow-hidden w-full">
+          <div className="flex flex-col justify-center w-full lg:w-1/2">
+            <div className="bg-white bg-opacity-40 backdrop-blur-xl p-2 shadow-xl rounded-lg overflow-hidden w-full mb-8 lg:mb-0">
               <div className="relative pb-9/16">
                 <video autoPlay loop muted className="w-full h-full object-cover rounded-lg">
                   <source src="/Coding-Demo.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
+            </div>
+
+            {/* Technology Logos Section */}
+            <div className="flex justify-center items-center flex-wrap mt-4">
+              {/* Replace the src attributes with the paths to your logo images */}
+              <img src="/path/to/react-logo.png" alt="React" className="h-16 w-auto m-4" />
+              <img src="/path/to/tailwind-logo.png" alt="Tailwind CSS" className="h-16 w-auto m-4" />
+              <img src="/path/to/node-logo.png" alt="Node.js" className="h-16 w-auto m-4" />
+              <img src="/path/to/mongo-logo.png" alt="MongoDB" className="h-16 w-auto m-4" />
+              {/* Add more logos as needed */}
             </div>
           </div>
 
@@ -55,17 +65,6 @@ const TechShowcase = () => {
           </div>
           
         </div>
-
-        {/* Technology Logos Section */}
-        <div className="flex justify-center items-center flex-wrap mt-12">
-          {/* Replace the src attributes with the paths to your logo images */}
-          <img src="/path/to/react-logo.png" alt="React" className="h-16 w-auto m-4" />
-          <img src="/path/to/tailwind-logo.png" alt="Tailwind CSS" className="h-16 w-auto m-4" />
-          <img src="/path/to/node-logo.png" alt="Node.js" className="h-16 w-auto m-4" />
-          <img src="/path/to/mongo-logo.png" alt="MongoDB" className="h-16 w-auto m-4" />
-          {/* Add more logos as needed */}
-        </div>
-
       </div>
     </div>
   );
