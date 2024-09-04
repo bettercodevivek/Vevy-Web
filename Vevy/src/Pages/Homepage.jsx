@@ -1,5 +1,6 @@
 import LandingPage from "../Components/Landing";
 import OurServices from "../Components/Services";
+import TechShowcase from "../Components/TechShowcase";
 import Testimonials from "../Components/Testimonials";
 
 const Homepage = () =>{
@@ -7,6 +8,7 @@ const Homepage = () =>{
       <div className="max-w-screen-2xl mx-auto overflow-hidden">
         <LandingPage/>
         <OurServices/>
+        <TechShowcase/>
         <Testimonials/>
       </div>
     );
