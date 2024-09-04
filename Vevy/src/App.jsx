@@ -6,7 +6,6 @@ import Homepage from "./Pages/Homepage";
 const App = () =>{
   return(
         <React.Fragment>
-          <Navbar/>
           <Homepage/>
         </React.Fragment>
   );
