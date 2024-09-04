@@ -43,7 +43,7 @@ const LandingPage = () => {
     </div>
 
     <div className='pt-12 pb-12'>
-      <div className='m-4 xl:mr-24 lg:mr-16 2xl:mr-32 flex flex-row justify-end'>
+      <div className='m-4 xl:mr-24 lg:mr-16 2xl:mr-32 -mr-0.5 flex flex-row justify-end'>
         <div className='flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-xl gap-2 p-4 hover:text-white hover:cursor-pointer'>
           <FaLock />
           <a href='https://jbansicucare.com/'> https://jbansicucare.com/</a>
