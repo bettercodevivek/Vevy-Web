@@ -30,7 +30,7 @@ const LandingPage = () => {
             </div>
             <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
               <div className="relative pb-9/16">
-                <video autoPlay loop muted className="h-96 object-cover rounded-lg">
+                <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 object-cover rounded-lg">
                   <source src="/Demo_web_mobile.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -48,7 +48,7 @@ const LandingPage = () => {
           <div className="flex justify-center items-center space-x-8">
           <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
               <div className="relative pb-9/16">
-                <video autoPlay loop muted className="h-96 object-cover rounded-lg">
+                <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-0 object-cover rounded-lg">
                   <source src="/Demo_mobile_2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

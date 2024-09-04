@@ -1,65 +1,68 @@
-import { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import React, { useState } from 'react';
 
 const Navbar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
+    setSidebarOpen(!isSidebarOpen);
   };
 
   return (
-    <div className="sticky top-0 bg-white bg-opacity-30 backdrop-blur-lg w-full z-10 font-mono">
-      
-      {/* Navbar for larger screens */}
-      <nav className="hidden md:flex w-full flex-row items-center justify-between text-lg leading-8 py-4 px-4 md:px-8">
-        <div className="flex items-center gap-4">
-          <img className="h-10 md:h-12" src="/website-svgrepo-com.svg" alt="Logo" />
-          <h1 className="font-semibold text-sm md:text-lg">VEVY WEB SOLUTIONS</h1>
-        </div>
-        <div className="flex flex-row items-center justify-end gap-8">
-          <a href="#" className="text-sm md:text-base hover:text-blue-500 transition">Home</a>
-          <a href="#" className="text-sm md:text-base hover:text-blue-500 transition">Our Services</a>
-          <a href="#" className="text-sm md:text-base hover:text-blue-500 transition">Our Work</a>
-          <a href="#" className="text-sm md:text-base hover:text-blue-500 transition">Testimonials</a>
-          <a href="#" className="text-sm md:text-base hover:text-blue-500 transition">Contact Us</a>
-        </div>
-      </nav>
+    <nav className="bg-slate-100 sticky top-0 left-0 z-10 bg-opacity-40 backdrop-blur-xl shadow-lg font-mono">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between h-16 items-center">
+          {/* Left side: Logo and Company Name */}
+          <div className="flex-shrink-0 flex items-center">
+            <img className="h-8 w-auto" src="/website-svgrepo-com.svg" alt="Logo" />
+            <span className="ml-3 text-xl font-bold text-gray-800">BCV Web Solutions</span>
+          </div>
+          
+          {/* Right side: Navigation Links */}
+          <div className="hidden md:flex space-x-4 text-black text-lg">
+            <a href="#" className=" px-3 py-2 rounded-md  font-medium">Home</a>
+            <a href="#" className=" px-3 py-2 rounded-md  font-medium">Our Work</a>
+            <a href="#" className=" px-3 py-2 rounded-md  font-medium">Our Services</a>
+            <a href="#" className=" px-3 py-2 rounded-md  font-medium">Testimonials</a>
+            <a href="#" className=" px-3 py-2 rounded-md  font-medium">Contact Us</a>
+          </div>
 
-      {/* Hamburger Icon for mobile screens */}
-      <div className="flex md:hidden items-center justify-between p-4">
-        <img className="h-10" src="/website-svgrepo-com.svg" alt="Logo" />
-        <button onClick={toggleSidebar}>
-          <FaBars className="text-2xl" />
-        </button>
+          {/* Mobile menu button */}
+          <div className="-mr-2 flex md:hidden">
+            <button
+              type="button"
+              className="bg-gray-100 inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
+              onClick={toggleSidebar}
+            >
+              <span className="sr-only">Open main menu</span>
+              <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
 
-      {/* Sidebar for mobile screens */}
-      <div
-        className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
-          isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
-        } md:hidden`}
-      >
-        <div className="flex flex-col items-start p-4 space-y-6">
-          <button onClick={toggleSidebar} className="self-end">
-            <FaTimes className="text-2xl" />
+      {/* Mobile Sidebar */}
+      <div className={`fixed inset-0 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out z-50 bg-gray-800 md:hidden`}>
+        <div className="flex justify-end p-4">
+          <button
+            type="button"
+            className="text-white"
+            onClick={toggleSidebar}
+          >
+            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
           </button>
-          <a href="#" className="text-lg font-semibold hover:text-blue-500 transition">Home</a>
-          <a href="#" className="text-lg font-semibold hover:text-blue-500 transition">Our Services</a>
-          <a href="#" className="text-lg font-semibold hover:text-blue-500 transition">Our Work</a>
-          <a href="#" className="text-lg font-semibold hover:text-blue-500 transition">Testimonials</a>
-          <a href="#" className="text-lg font-semibold hover:text-blue-500 transition">Contact Us</a>
         </div>
+        <nav className="mt-8 space-y-2 px-4">
+          <a href="#" className="block text-white text-lg font-medium hover:text-gray-300">Home</a>
+          <a href="#" className="block text-white text-lg font-medium hover:text-gray-300">About</a>
+          <a href="#" className="block text-white text-lg font-medium hover:text-gray-300">Services</a>
+          <a href="#" className="block text-white text-lg font-medium hover:text-gray-300">Contact</a>
+        </nav>
       </div>
-
-      {/* Overlay for sidebar */}
-      {isSidebarOpen && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 md:hidden"
-          onClick={toggleSidebar}
-        ></div>
-      )}
-    </div>
+    </nav>
   );
 };
 
