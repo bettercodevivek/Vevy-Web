@@ -2,7 +2,7 @@ import React from 'react';
 
 const TechShowcase = () => {
   return (
-    <div id='Technology' className="bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen pt-8 pb-4 px-4 sm:px-6 lg:px-12">
+    <div id='Technology' className="relative bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen pt-8 pb-4 px-4 sm:px-6 lg:px-12 z-0">
       <div className="container mx-auto">
         {/* Heading Section */}
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-6 sm:mb-8 lg:mb-12 text-black">Built with the Latest Technology</h1>

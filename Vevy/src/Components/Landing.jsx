@@ -1,33 +1,39 @@
 // src/LandingPage.jsx
 
 import React from 'react';
-import { FaLock } from 'react-icons/fa';
+import { FaLock, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 
 const LandingPage = () => {
+  const handleCallClick = () => {
+    window.location.href = 'tel:+918979145539'; // Replace with your phone number
+  };
+
+  const handleWhatsappClick = () => {
+    window.open('https://wa.me/+918979145539', '_blank'); // Replace with your WhatsApp number
+  };
+
   return (
-    <div className="min-h-screen-2xl relative z-0 font-sans">
+    <div id='Home' className="min-h-screen-2xl relative z-0 font-sans">
       <section className="bg-gradient-to-r from-slate-300 to-slate-400 text-center py-16 px-4">
-  <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold mb-6 text-black">
-    Get Professional Websites at Prices
-    <br className="sm:hidden" /> {/* This line break ensures wrapping on smaller screens */}
-    <div className='mt-2 md:inline'>
-    <span className="bg-black bg-opacity-90 text-white w-fit p-2 rounded-2xl sm:inline-block xl:inline mx-auto">
-      That Won’t Break the Bank.
-    </span>
-    </div>
-  </h1>
-  <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-black">
-    Affordable, Effective, and Ready to Launch Your Business Online.
-  </p>
-  <a
-    href="#video"
-    className="bg-white text-black px-8 py-3 md:px-10 md:py-4 lg:px-12 lg:py-4 rounded-full border-2 border-solid border-white text-xl md:text-2xl font-semibold hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
-  >
-    Get Started
-  </a>
-</section>
-
-
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold mb-6 text-black">
+          Get Professional Websites at Prices
+          <br className="sm:hidden" /> {/* This line break ensures wrapping on smaller screens */}
+          <div className='mt-2 md:inline'>
+            <span className="bg-black bg-opacity-90 text-white w-fit p-2 rounded-2xl sm:inline-block xl:inline mx-auto">
+              That Won’t Break the Bank.
+            </span>
+          </div>
+        </h1>
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-black">
+          Affordable, Effective, and Ready to Launch Your Business Online.
+        </p>
+        <a
+          href="#video"
+          className="bg-white text-black px-8 py-3 md:px-10 md:py-4 lg:px-12 lg:py-4 rounded-full border-2 border-solid border-white text-xl md:text-2xl font-semibold hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
+        >
+          Get Started
+        </a>
+      </section>
 
       {/* Video Section */}
       <section id="video" className="bg-gradient-to-r from-slate-300 to-slate-400">
@@ -92,6 +98,22 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Fixed Icons */}
+      <div className="fixed bottom-4 right-4 flex flex-col gap-4 z-10">
+        <button
+          onClick={handleCallClick}
+          className="bg-black p-4 rounded-full text-white shadow-lg hover:bg-green-500 transition-colors duration-300"
+        >
+          <FaPhoneAlt className="text-2xl" />
+        </button>
+        <button
+          onClick={handleWhatsappClick}
+          className="bg-green-500 p-4 rounded-full text-white shadow-lg hover:bg-black transition-colors duration-300"
+        >
+          <FaWhatsapp className="text-2xl" />
+        </button>
+      </div>
     </div>
   );
 };
