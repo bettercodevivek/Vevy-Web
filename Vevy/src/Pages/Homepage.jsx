@@ -1,4 +1,5 @@
 import ContactUs from "../Components/Contact";
+import Footer from "../Components/Footer";
 import LandingPage from "../Components/Landing";
 import OurServices from "../Components/Services";
 import TechShowcase from "../Components/TechShowcase";
@@ -12,6 +13,7 @@ const Homepage = () =>{
         <TechShowcase/>
         <Testimonials/>
         <ContactUs/>
+        <Footer/>
       </div>
     );
 }
