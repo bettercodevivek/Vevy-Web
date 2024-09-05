@@ -6,40 +6,29 @@ import { FaLock } from 'react-icons/fa';
 const LandingPage = () => {
   return (
     <div className="min-h-screen-2xl relative z-0 font-sans">
-      {/* Top Bar with Company Logo and Name */}
-      <header className="bg-gradient-to-r from-slate-300 to-slate-400  text-center py-4 px-4">
-        <div className='flex flex-row items-center justify-center'>
-        <div className="flex items-center justify-center mb-4 gap-4 bg-white bg-opacity-30 backdrop-blur-lg p-4 w-fit rounded-lg">
-          <img src='/website-svgrepo-com.svg' className='h-8 w-8'/>
-          <h1 className="text-2xl font-semibold font-mono text-black">Vevy Web Solutions</h1>
-        </div>
-        </div>
-      
-      </header>
-
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-slate-300 to-slate-400 text-center py-16 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-black">
+      <section className="bg-cyan-900 text-center py-16 px-4">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-white">
           Get Professional Websites at Prices{' '}
-          <span className="bg-black bg-opacity-90 text-slate-100 p-2 rounded-2xl">
+          <span className="bg-white bg-opacity-90 text-blue-700 p-2 rounded-2xl">
             That Won’t Break the Bank.
           </span>
         </h1>
-        <p className="text-lg sm:text-2xl mb-8 text-black">
+        <p className="text-lg sm:text-2xl mb-8 text-white">
           Affordable, Effective, and Ready to Launch Your Business Online.
         </p>
         <a
           href="#video"
-          className="bg-white text-black px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-black hover:text-white"
+          className="bg-white text-blue-700 px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-blue-700 hover:text-white"
         >
           Get Started
         </a>
       </section>
 
       {/* Video Section */}
-      <section id="video" className="bg-gradient-to-r from-slate-300 to-slate-400 ">
+      <section id="video" className="bg-cyan-900 ">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-black">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-white">
             See Our Work | Quality Websites, Real Results
           </h2>
           <div>
