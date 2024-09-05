@@ -4,14 +4,14 @@ const LandingPage = () => {
   return (
     <div className=" min-h-screen-2xl relative z-0 font-sans">
       {/* Hero Section */}
-      <header className="bg-blue-700 text-white text-center py-16 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-6">Get Professional Websites at Prices That Won’t Break the Bank.</h1>
+      <header className="bg-cyan-800 text-white text-center py-16 px-4">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-6">Get Professional Websites at Prices <span className='bg-white bg-opacity-90  text-blue-700 p-2 rounded-2xl'>That Won’t Break the Bank.</span></h1>
         <p className="text-lg sm:text-2xl mb-8">Affordable, Effective, and Ready to Launch Your Business Online.</p>
         <a href="#video" className="bg-white text-blue-700 px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-blue-700 hover:text-white">Get Started</a>
       </header>
 
     {/* Video Section */}
-<section id="video" className="bg-blue-700">
+<section id="video" className="bg-cyan-800 ">
   <div className="container mx-auto px-4">
     <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-white">See Our Work | Quality Websites, Real Results</h2>
     <div>
