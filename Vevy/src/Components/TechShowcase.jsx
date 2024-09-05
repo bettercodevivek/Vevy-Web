@@ -2,11 +2,11 @@ import React from 'react';
 
 const TechShowcase = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-300 to-slate-400  min-h-screen pt-8 pb-4 px-12">
-      <div className="container mx-auto px-4">
+    <div id='Technology' className="bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen pt-8 pb-4 px-4 sm:px-6 lg:px-12">
+      <div className="container mx-auto">
         {/* Heading Section */}
-        <h1 className="text-5xl font-bold text-center mb-12 text-black">Built with the Latest Technology</h1>
-        <p className="text-xl text-center text-black mb-12">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-6 sm:mb-8 lg:mb-12 text-black">Built with the Latest Technology</h1>
+        <p className="text-lg sm:text-xl lg:text-2xl text-center text-black mb-8 sm:mb-10 lg:mb-12">
           Our websites are custom-coded using the latest technology stack, offering you greater flexibility, scalability, and performance compared to no-code platforms.
         </p>
 
@@ -25,15 +25,15 @@ const TechShowcase = () => {
             </div>
 
             {/* Technology Logos Section */}
-            <div className="flex flex-col justify-center items-center flex-wrap mt-4 bg-[#333333] border-solid border-[#333333] border-2 bg-opacity-40 backdrop-blur-xl rounded-xl">
-              <div>
-                <h1 className='text-2xl font-semibold text-white'>Using Latest Tech Stack</h1>
+            <div className="flex flex-col justify-center items-center flex-wrap mt-4 bg-[#333333] border-solid border-[#333333] border-2 bg-opacity-40 backdrop-blur-xl rounded-xl p-4">
+              <div className="mb-4">
+                <h1 className='text-lg sm:text-xl lg:text-2xl font-semibold text-white text-center'>Using Latest Tech Stack</h1>
               </div>
-              <div className='flex flex-row items-center justify-center'>
-                <img src="/react-svgrepo-com.svg" alt="React" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
-                <img src="/tailwind-svgrepo-com.svg" alt="Tailwind CSS" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
-                <img src="/node-js-svgrepo-com.svg" alt="Node.js" className="h-16 w-auto m-4 drop-shadow-xl" />
-                <img src="/next-js-svgrepo-com.svg" alt="MongoDB" className="h-16 w-auto m-4 drop-shadow-xl" />
+              <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center items-center'>
+                <img src="/react-svgrepo-com.svg" alt="React" className="h-12 w-auto drop-shadow-xl hover:rotate-90 transition-transform duration-300 ease-in-out" />
+                <img src="/tailwind-svgrepo-com.svg" alt="Tailwind CSS" className="h-12 w-auto drop-shadow-xl hover:rotate-90 transition-transform duration-300 ease-in-out" />
+                <img src="/node-js-svgrepo-com.svg" alt="Node.js" className="h-12 w-auto drop-shadow-xl" />
+                <img src="/next-js-svgrepo-com.svg" alt="Next.js" className="h-12 w-auto drop-shadow-xl" />
               </div>
             </div>
           </div>
@@ -41,8 +41,8 @@ const TechShowcase = () => {
           {/* Comparison Section */}
           <div className="w-full lg:w-1/2 flex flex-col space-y-8">
             {/* Custom-Coded Websites */}
-            <div className="bg-black bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-8 transition-transform transform">
-              <h2 className="text-2xl font-semibold text-center mb-4 text-white">Custom-Coded Websites</h2>
+            <div className="bg-black bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-6 sm:p-8 transition-transform transform">
+              <h2 className="text-xl sm:text-2xl font-semibold text-center mb-4 text-white">Custom-Coded Websites</h2>
               <ul className="text-left mb-6 space-y-2 text-white">
                 <li>✓ Built using the latest tech stack (React, Node.js, etc.)</li>
                 <li>✓ High performance and fast load times</li>
@@ -53,8 +53,8 @@ const TechShowcase = () => {
             </div>
 
             {/* No-Code Websites */}
-            <div className="bg-black bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-8 transition-transform transform">
-              <h2 className="text-2xl font-semibold text-center mb-4 text-white">No-Code Websites</h2>
+            <div className="bg-black bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-6 sm:p-8 transition-transform transform">
+              <h2 className="text-xl sm:text-2xl font-semibold text-center mb-4 text-white">No-Code Websites</h2>
               <ul className="text-left mb-6 space-y-2 text-white">
                 <li>✗ Limited customization options</li>
                 <li>✗ May suffer from performance issues</li>

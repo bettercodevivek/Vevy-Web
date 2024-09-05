@@ -44,7 +44,7 @@ const ServicesPage = () => {
   ];
 
   return (
-    <div className="bg-gray-100 py-16">
+    <div id='Services' className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-12">Our Services</h1>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">

@@ -6,7 +6,7 @@ import { FaEnvelope, FaPhone, FaInstagram } from 'react-icons/fa';
 
 const ContactUs = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-300 to-slate-400  min-h-screen py-8">
+    <div id='Contact' className="bg-gradient-to-r from-slate-300 to-slate-400  min-h-screen py-8">
       <div className="container mx-auto px-4">
         {/* Heading Section */}
         <h1 className="text-5xl font-bold text-center text-black mb-8">Contact Us</h1>
