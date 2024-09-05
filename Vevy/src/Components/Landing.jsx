@@ -1,77 +1,101 @@
+// src/LandingPage.jsx
+
 import React from 'react';
-import {  FaLock } from 'react-icons/fa';
+import { FaLock } from 'react-icons/fa';
+
 const LandingPage = () => {
   return (
-    <div className=" min-h-screen-2xl relative z-0 font-sans">
-      {/* Hero Section */}
-      <header className="bg-sky-800 text-white text-center py-16 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-6">Get Professional Websites at Prices <span className='bg-white bg-opacity-90  text-blue-700 p-2 rounded-2xl'>That Won’t Break the Bank.</span></h1>
-        <p className="text-lg sm:text-2xl mb-8">Affordable, Effective, and Ready to Launch Your Business Online.</p>
-        <a href="#video" className="bg-white text-blue-700 px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-blue-700 hover:text-white">Get Started</a>
+    <div className="min-h-screen-2xl relative z-0 font-sans">
+      {/* Top Bar with Company Logo and Name */}
+      <header className="bg-sky-800 text-white text-center py-4 px-4">
+        <div className="flex items-center justify-center mb-4 gap-4 bg-white bg-opacity-30 backdrop-blur-lg p-4 w-fit rounded-lg">
+          <img src='/website-svgrepo-com.svg' className='h-8 w-8'/>
+          <h1 className="text-2xl font-semibold font-mono">Vevy Web Solutions</h1>
+        </div>
       </header>
 
-    {/* Video Section */}
-<section id="video" className="bg-sky-800 ">
-  <div className="container mx-auto px-4">
-    <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-white">See Our Work | Quality Websites, Real Results</h2>
-    <div>
-      <div className='flex flex-row items-center justify-start lg:ml-16 lg:m-4 xl:ml-24 xl:m-4 2xl:ml-32 2xl:m-4'>
-        <div className='flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-xl gap-2 p-4 w-max hover:text-white hover:cursor-pointer'>
-          <FaLock />
-          <a href='https://lhdhumancare.com/'> https://lhdhumancare.com/ </a>
-        </div>
-      </div>
+      {/* Hero Section */}
+      <section className="bg-sky-800 text-center py-16 px-4">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-6">
+          Get Professional Websites at Prices{' '}
+          <span className="bg-white bg-opacity-90 text-blue-700 p-2 rounded-2xl">
+            That Won’t Break the Bank.
+          </span>
+        </h1>
+        <p className="text-lg sm:text-2xl mb-8">
+          Affordable, Effective, and Ready to Launch Your Business Online.
+        </p>
+        <a
+          href="#video"
+          className="bg-white text-blue-700 px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-blue-700 hover:text-white"
+        >
+          Get Started
+        </a>
+      </section>
 
-      <div className="flex flex-col items-start justify-start sm:items-center sm:justify-center sm:flex-row sm:space-x-8 mt-8 sm:mt-0">
-        <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3 mb-8 sm:mb-0">
-          <div className="relative pb-9/16">
-            <video autoPlay loop muted className="w-full h-full object-cover rounded-lg">
-              <source src="/Demo_video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+      {/* Video Section */}
+      <section id="video" className="bg-sky-800">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-white">
+            See Our Work | Quality Websites, Real Results
+          </h2>
+          <div>
+            <div className="flex flex-row items-center justify-start lg:ml-16 lg:m-4 xl:ml-24 xl:m-4 2xl:ml-32 2xl:m-4">
+              <div className="flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-xl gap-2 p-4 w-max hover:text-white hover:cursor-pointer">
+                <FaLock />
+                <a href="https://lhdhumancare.com/">https://lhdhumancare.com/</a>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-start justify-start sm:items-center sm:justify-center sm:flex-row sm:space-x-8 mt-8 sm:mt-0">
+              <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3 mb-8 sm:mb-0">
+                <div className="relative pb-9/16">
+                  <video autoPlay loop muted className="w-full h-full object-cover rounded-lg">
+                    <source src="/Demo_video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
+                <div className="relative pb-9/16">
+                  <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
+                    <source src="/Demo_web_mobile.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-12 pb-12">
+            <div className="m-4 xl:mr-24 lg:mr-16 2xl:mr-32 -mr-0.5 flex flex-row justify-end">
+              <div className="flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-xl gap-2 p-4 hover:text-white hover:cursor-pointer">
+                <FaLock />
+                <a href="https://jbansicucare.com/">https://jbansicucare.com/</a>
+              </div>
+            </div>
+
+            <div className="flex flex-col-reverse items-end justify-end sm:items-center sm:justify-center gap-8 sm:gap-0 mt-8 sm:mt-0 sm:flex-row sm:space-x-8">
+              <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0 mb-8 sm:mb-0">
+                <div className="relative pb-9/16">
+                  <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
+                    <source src="/Demo_mobile_2.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3">
+                <div className="relative pb-9/16">
+                  <video autoPlay loop muted className="w-full h-full object-cover rounded-lg">
+                    <source src="/Demo2.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
-          <div className="relative pb-9/16">
-            <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
-              <source src="/Demo_web_mobile.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className='pt-12 pb-12'>
-      <div className='m-4 xl:mr-24 lg:mr-16 2xl:mr-32 -mr-0.5 flex flex-row justify-end'>
-        <div className='flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-xl gap-2 p-4 hover:text-white hover:cursor-pointer'>
-          <FaLock />
-          <a href='https://jbansicucare.com/'> https://jbansicucare.com/</a>
-        </div>
-      </div>
-
-      <div className="flex flex-col-reverse items-end justify-end sm:items-center sm:justify-center gap-8 sm:gap-0 mt-8 sm:mt-0 sm:flex-row sm:space-x-8">
-        <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0 mb-8 sm:mb-0">
-          <div className="relative pb-9/16">
-            <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
-              <source src="/Demo_mobile_2.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-        <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3">
-          <div className="relative pb-9/16">
-            <video autoPlay loop muted className="w-full h-full object-cover rounded-lg">
-              <source src="/Demo2.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+      </section>
     </div>
   );
 };
