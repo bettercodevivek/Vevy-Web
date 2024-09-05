@@ -8,10 +8,13 @@ const LandingPage = () => {
     <div className="min-h-screen-2xl relative z-0 font-sans">
       {/* Top Bar with Company Logo and Name */}
       <header className="bg-sky-800 text-white text-center py-4 px-4">
+        <div className='flex flex-row items-center justify-center'>
         <div className="flex items-center justify-center mb-4 gap-4 bg-white bg-opacity-30 backdrop-blur-lg p-4 w-fit rounded-lg">
           <img src='/website-svgrepo-com.svg' className='h-8 w-8'/>
           <h1 className="text-2xl font-semibold font-mono">Vevy Web Solutions</h1>
         </div>
+        </div>
+      
       </header>
 
       {/* Hero Section */}
