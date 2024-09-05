@@ -9,8 +9,8 @@ const ContactUs = () => {
       <div className="container mx-auto px-4">
         {/* Heading Section */}
         <h1 className="text-4xl font-bold text-center text-black mb-6">Get in Touch</h1>
-        <p className="text-xl text-center text-black mb-12">
-          Want us to create your website and elevate your digital presence, call us, ping us on whatsapp or fill the form below.
+        <p className="text-2xl text-center text-black mb-12">
+          Want us to create your website and elevate your digital presence, <span className='font-bold'>call us, ping us on whatsapp or fill the form below.</span>
         </p>
 
         {/* Main Content Section */}
