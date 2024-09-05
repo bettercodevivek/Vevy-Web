@@ -18,7 +18,7 @@ const LandingPage = () => {
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold mb-6 text-black">
           Get Professional Websites at Prices
           <br className="sm:hidden" /> {/* This line break ensures wrapping on smaller screens */}
-          <div className='mt-2 md:inline'>
+          <div className='mt-2 xl:inline'>
             <span className="bg-black bg-opacity-90 text-white w-fit p-2 rounded-2xl sm:inline-block xl:inline mx-auto">
               That Won’t Break the Bank.
             </span>
