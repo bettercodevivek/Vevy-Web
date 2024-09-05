@@ -7,28 +7,28 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen-2xl relative z-0 font-sans">
       {/* Hero Section */}
-      <section className="bg-cyan-900 text-center py-16 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-white">
+      <section className="bg-gradient-to-r from-slate-300 to-slate-400 text-center py-16 px-4">
+        <h1 className="text-3xl sm:text-4xl font-semibold mb-6 text-black">
           Get Professional Websites at Prices{' '}
-          <span className="bg-white bg-opacity-90 text-blue-700 p-2 rounded-2xl">
+          <span className="bg-black bg-opacity-90 text-white p-2 rounded-2xl">
             That Won’t Break the Bank.
           </span>
         </h1>
-        <p className="text-lg sm:text-2xl mb-8 text-white">
+        <p className="text-lg sm:text-2xl mb-8 text-black">
           Affordable, Effective, and Ready to Launch Your Business Online.
         </p>
         <a
           href="#video"
-          className="bg-white text-blue-700 px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-blue-700 hover:text-white"
+          className="bg-white text-black px-12 py-4 rounded-full border-2 border-solid border-white text-2xl font-semibold hover:bg-black hover:text-white"
         >
           Get Started
         </a>
       </section>
 
       {/* Video Section */}
-      <section id="video" className="bg-cyan-900 ">
+      <section id="video" className="bg-gradient-to-r from-slate-300 to-slate-400">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-white">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-black">
             See Our Work | Quality Websites, Real Results
           </h2>
           <div>
