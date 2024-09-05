@@ -1,3 +1,4 @@
+import ContactUs from "../Components/Contact";
 import LandingPage from "../Components/Landing";
 import OurServices from "../Components/Services";
 import TechShowcase from "../Components/TechShowcase";
@@ -10,6 +11,7 @@ const Homepage = () =>{
         <OurServices/>
         <TechShowcase/>
         <Testimonials/>
+        <ContactUs/>
       </div>
     );
 }
