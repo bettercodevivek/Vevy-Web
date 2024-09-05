@@ -52,16 +52,16 @@ const ServicesPage = () => {
             <div
               key={index}
               className={`flex flex-col bg-white shadow-lg rounded-lg p-6 w-full max-w-sm ${
-                plan.popular ? 'border-4 border-blue-600' : ''
+                plan.popular ? 'border-4 border-black' : ''
               }`}
             >
               <div className="text-center mb-4">
-                <FaCheckCircle className="text-blue-600 inline-block mb-2" size={32} />
+                <FaCheckCircle className="text-black inline-block mb-2" size={32} />
                 <h2 className="text-2xl font-semibold">
                   {plan.title}
                 </h2>
                 {plan.popular && (
-                  <span className="inline-block mt-2 text-sm text-white bg-blue-600 px-3 py-1 rounded-full">
+                  <span className="inline-block mt-2 text-sm text-white bg-black px-3 py-1 rounded-full">
                     Most Popular
                   </span>
                 )}
@@ -70,14 +70,14 @@ const ServicesPage = () => {
               <ul className="space-y-3 mb-6">
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex items-center">
-                    <FaCheckCircle className="text-blue-600 mr-2" />
+                    <FaCheckCircle className="text-black mr-2" />
                     {feature}
                   </li>
                 ))}
               </ul>
               <a
                 href="#"
-                className="mt-auto bg-blue-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+                className="mt-auto bg-black text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
               >
                 Get Started
               </a>

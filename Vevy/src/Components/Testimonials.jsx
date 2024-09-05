@@ -20,13 +20,13 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="text-white min-h-screen bg-gray-900  pt-24">
+    <div className="text-black min-h-screen bg-gray-100  pt-24">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl font-bold text-center mb-12">What Our Clients Say</h1>
         
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white bg-opacity-50 backdrop-blur-xl border-solid border-2 border-black shadow-xl rounded-lg p-8 max-w-md mx-auto md:mx-0 transition-transform transform hover:scale-105">
+            <div key={index} className="bg-black text-white bg-opacity-60 backdrop-blur-xl border-solid border-2 border-black shadow-xl rounded-lg p-8 max-w-md mx-auto md:mx-0 transition-transform transform hover:scale-105">
               <div className="text-center">
                 <img
                   className="w-32 h-28 rounded-lg mx-auto mb-4 drop-shadow-xl"
