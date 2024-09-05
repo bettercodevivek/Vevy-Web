@@ -3,9 +3,9 @@ import { FaRocket, FaCogs, FaStar } from 'react-icons/fa'; // Import icons
 
 const OurServices = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen py-12 font-sans">
+    <div className="bg-gray-900 min-h-screen py-12 font-sans">
       <div className="container mx-auto px-4">
-        <h1 className="text-5xl font-bold text-center mb-12">Our Services</h1>
+        <h1 className="text-5xl font-bold text-center mb-12 text-white">Our Services</h1>
         
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
           

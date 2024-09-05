@@ -30,7 +30,7 @@ const LandingPage = () => {
         </p>
         <a
           href="#video"
-          className="bg-white text-blue-700 px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-blue-700 hover:text-white"
+          className="bg-white text-black px-8 py-4 rounded-full border-2 border-solid border-white text-lg font-semibold hover:bg-black hover:text-white"
         >
           Get Started
         </a>

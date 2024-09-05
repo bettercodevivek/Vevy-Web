@@ -20,7 +20,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="text-black min-h-screen bg-gradient-to-r from-slate-300 to-slate-400  pt-24">
+    <div className="text-white min-h-screen bg-gray-900  pt-24">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl font-bold text-center mb-12">What Our Clients Say</h1>
         
