@@ -1,73 +1,67 @@
+// src/OurServices.jsx
+
 import React from 'react';
-import { FaRocket, FaCogs, FaStar } from 'react-icons/fa'; // Import icons
+import { FaCheckCircle, FaStar } from 'react-icons/fa';
 
 const OurServices = () => {
   return (
-    <div className="bg-gray-900 min-h-screen py-12 font-sans">
+    <div className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-5xl font-bold text-center mb-12 text-white">Our Services</h1>
-        
-        <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
-          
+        {/* Heading Section */}
+        <h1 className="text-5xl font-bold text-center mb-12">Our Services</h1>
+        <p className="text-xl text-center mb-8">
+          Choose the perfect plan for your business needs. We offer a range of services to help you build a professional online presence.
+        </p>
+
+        {/* Services Section */}
+        <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-8 md:space-y-0">
           {/* Basic Plan */}
-          <div className="bg-white shadow-lg rounded-lg p-8 max-w-sm mx-auto md:mx-0">
-            <h2 className="text-2xl font-semibold text-center mb-4">
-              <FaRocket className="inline-block mr-2" /> Basic Plan
-            </h2>
-            <p className="text-center text-gray-600 mb-4">Perfect for small businesses and startups looking to establish an online presence.</p>
-            <ul className="text-left mb-6 space-y-2">
-              <li>✓ Responsive Design</li>
-              <li>✓ Single Page Website (No external linked pages, can have multiple pages in scrolling manner)</li>
-              <li>✓ Basic SEO Setup</li>
-              <li>✓ SSL Certificate</li>
-            </ul>
-            <div className="text-center">
-              <p className="text-3xl font-bold mb-2">₹ 5,000</p>
-              <p className="text-gray-600 mb-6">One-time Payment</p>
-              <a href="#contact" className="bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600">Get Started</a>
+          <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col items-center w-full md:w-1/3 h-full">
+            <div className="text-3xl font-semibold mb-4 flex items-center">
+              <FaCheckCircle className="text-blue-700 mr-2" /> Basic Plan
             </div>
+            <ul className="text-left space-y-2 mb-6 text-gray-700">
+              <li>✓ Responsive Design</li>
+              <li>✓ Basic SEO Optimization</li>
+              <li>✓ 5 Pages Website</li>
+              <li>✓ Contact Form Integration</li>
+              <li>✓ 1 Month Free Support</li>
+            </ul>
+            <div className="text-xl font-bold mb-4">Starting at $299</div>
+            <a href="#contact" className="bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600">Get Started</a>
           </div>
 
-          {/* Standard Plan */}
-          <div className="bg-white shadow-lg rounded-lg p-8 max-w-sm mx-auto md:mx-0">
-            <h2 className="text-2xl font-semibold text-center mb-4">
-              <FaCogs className="inline-block mr-2" /> Standard Plan
-            </h2>
-            <p className="text-center text-gray-600 mb-4">Ideal for growing businesses that need more features and customization.</p>
-            <ul className="text-left mb-6 space-y-2">
-              <li>✓ MultiPage Website</li>
-              <li>✓ Advanced SEO Setup</li>
-              <li>✓ Custom Design</li>
-              <li>✓ SSL Certificate</li>
-              <li>✓ Dynamic Design</li>
-            </ul>
-            <div className="text-center">
-              <p className="text-3xl font-bold mb-2">₹ 10,000</p>
-              <p className="text-gray-600 mb-6">One-time Payment</p>
-              <a href="#contact" className="bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600">Get Started</a>
+          {/* Standard Plan - Highlighted */}
+          <div className="bg-blue-700 text-white shadow-lg rounded-lg p-8 flex flex-col items-center w-full md:w-1/3 h-full transform scale-105">
+            <div className="text-3xl font-semibold mb-4 flex items-center">
+              <FaStar className="text-yellow-400 mr-2" /> Standard Plan
             </div>
+            <ul className="text-left space-y-2 mb-6">
+              <li>✓ Everything in Basic</li>
+              <li>✓ Advanced SEO Optimization</li>
+              <li>✓ 10 Pages Website</li>
+              <li>✓ Custom Design</li>
+              <li>✓ 3 Months Free Support</li>
+            </ul>
+            <div className="text-xl font-bold mb-4">Starting at $499</div>
+            <a href="#contact" className="bg-white text-blue-700 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-200">Get Started</a>
           </div>
 
           {/* Premium Plan */}
-          <div className="bg-white shadow-lg rounded-lg p-8 max-w-sm mx-auto md:mx-0">
-            <h2 className="text-2xl font-semibold text-center mb-4">
-              <FaStar className="inline-block mr-2" /> Premium Plan
-            </h2>
-            <p className="text-center text-gray-600 mb-4">Best for businesses that want a fully customized and optimized website.</p>
-            <ul className="text-left mb-6 space-y-2">
-              <li>✓ Everything in Standard Plan</li>
-              <li>✓ Unlimited Pages</li>
-              <li>✓ E-commerce Integration</li>
-              <li>✓ Ongoing Support & Maintenance</li>
-              <li>✓ Custom Development Features</li>
-            </ul>
-            <div className="text-center">
-              <p className="text-3xl font-bold mb-2">Depends on Requirements(Min. ₹20,000)</p>
-              <p className="text-gray-600 mb-6">One-time Payment</p>
-              <a href="#contact" className="bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600">Get Started</a>
+          <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col items-center w-full md:w-1/3 h-full">
+            <div className="text-3xl font-semibold mb-4 flex items-center">
+              <FaCheckCircle className="text-blue-700 mr-2" /> Premium Plan
             </div>
+            <ul className="text-left space-y-2 mb-6 text-gray-700">
+              <li>✓ Everything in Standard</li>
+              <li>✓ E-commerce Functionality</li>
+              <li>✓ Unlimited Pages</li>
+              <li>✓ Priority Support</li>
+              <li>✓ 6 Months Free Support</li>
+            </ul>
+            <div className="text-xl font-bold mb-4">Starting at $999</div>
+            <a href="#contact" className="bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600">Get Started</a>
           </div>
-          
         </div>
       </div>
     </div>
