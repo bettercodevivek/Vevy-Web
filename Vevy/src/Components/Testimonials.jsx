@@ -7,13 +7,13 @@ const Testimonials = () => {
     {
       name: "LHD Human Care PVT LTD",
       title: "Pharmaceutical Company,Meerut",
-      quote: "Webify transformed our website into a modern, responsive platform. Their attention to detail and customer support are top-notch!",
+      quote: "We're thrilled with the website Vevy Web Solutions created for us. They made the whole process easy and enjoyable, listening closely to our needs and delivering a site that looks great and functions flawlessly. Their expertise in modern web technologies really shines through. We’re excited about the positive feedback we've received and couldn’t be happier with their work. Highly recommend them for anyone looking to elevate their online presence!",
       image: "https://i.postimg.cc/Y0S5LMn7/LHD-Human-Care-Logo-1.png" // Replace with real images
     },
     {
       name: "JBANS ICU CARE PVT LTD",
       title: "Pharmaceutical Company,Delhi",
-      quote: "Thanks to Webify, our online store looks amazing and functions flawlessly. The team exceeded our expectations!",
+      quote: "Vevy Web Solutions did an outstanding job on our new website. They understood exactly what we wanted and delivered a clean, modern design that’s easy to navigate. Their attention to detail and professionalism were impressive, and they made sure everything was perfect before launch. We've already noticed an increase in engagement and positive feedback. I’d definitely recommend them to anyone looking for a top-quality web design service!",
       image: "https://i.postimg.cc/4NBTDjyB/IMG-20240619-WA0009-1-removebg-preview-removebg-preview.webp" // Replace with real images
     },
     

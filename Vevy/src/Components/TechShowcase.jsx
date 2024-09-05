@@ -2,11 +2,11 @@ import React from 'react';
 
 const TechShowcase = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-300 to-slate-400  min-h-screen py-12">
+    <div className="bg-gradient-to-r from-slate-300 to-slate-400  min-h-screen pt-8 pb-4 px-12">
       <div className="container mx-auto px-4">
         {/* Heading Section */}
-        <h1 className="text-5xl font-bold text-center mb-12 text-white">Built with the Latest Technology</h1>
-        <p className="text-xl text-center text-white mb-12">
+        <h1 className="text-5xl font-bold text-center mb-12 text-black">Built with the Latest Technology</h1>
+        <p className="text-xl text-center text-black mb-12">
           Our websites are custom-coded using the latest technology stack, offering you greater flexibility, scalability, and performance compared to no-code platforms.
         </p>
 
@@ -41,9 +41,9 @@ const TechShowcase = () => {
           {/* Comparison Section */}
           <div className="w-full lg:w-1/2 flex flex-col space-y-8">
             {/* Custom-Coded Websites */}
-            <div className="bg-white shadow-lg rounded-lg p-8 transition-transform transform">
-              <h2 className="text-2xl font-semibold text-center mb-4 text-[#1C3D5A]">Custom-Coded Websites</h2>
-              <ul className="text-left mb-6 space-y-2 text-[#333333]">
+            <div className="bg-black bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-8 transition-transform transform">
+              <h2 className="text-2xl font-semibold text-center mb-4 text-white">Custom-Coded Websites</h2>
+              <ul className="text-left mb-6 space-y-2 text-white">
                 <li>✓ Built using the latest tech stack (React, Node.js, etc.)</li>
                 <li>✓ High performance and fast load times</li>
                 <li>✓ Fully customizable to your needs</li>
@@ -53,9 +53,9 @@ const TechShowcase = () => {
             </div>
 
             {/* No-Code Websites */}
-            <div className="bg-white shadow-lg rounded-lg p-8 transition-transform transform">
-              <h2 className="text-2xl font-semibold text-center mb-4 text-[#1C3D5A]">No-Code Websites</h2>
-              <ul className="text-left mb-6 space-y-2 text-[#333333]">
+            <div className="bg-black bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-8 transition-transform transform">
+              <h2 className="text-2xl font-semibold text-center mb-4 text-white">No-Code Websites</h2>
+              <ul className="text-left mb-6 space-y-2 text-white">
                 <li>✗ Limited customization options</li>
                 <li>✗ May suffer from performance issues</li>
                 <li>✗ Often lack scalability</li>
