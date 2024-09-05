@@ -1,13 +1,11 @@
-// src/TechShowcase.jsx
-
 import React from 'react';
 
 const TechShowcase = () => {
   return (
-    <div className="bg-gradient-to-r from-sky-600 to-blue-900 min-h-screen py-12">
+    <div className="bg-gradient-to-r from-[#008080] to-[#1C3D5A] min-h-screen py-12">
       <div className="container mx-auto px-4">
         {/* Heading Section */}
-        <h1 className="text-5xl font-bold text-center mb-12">Built with the Latest Technology</h1>
+        <h1 className="text-5xl font-bold text-center mb-12 text-[#FFD700]">Built with the Latest Technology</h1>
         <p className="text-xl text-center text-white mb-12">
           Our websites are custom-coded using the latest technology stack, offering you greater flexibility, scalability, and performance compared to no-code platforms.
         </p>
@@ -27,18 +25,16 @@ const TechShowcase = () => {
             </div>
 
             {/* Technology Logos Section */}
-            <div className="flex flex-col justify-center items-center flex-wrap mt-4 bg-black bg-opacity-40 backdrop-blur-xl rounded-xl">
-                <div>
+            <div className="flex flex-col justify-center items-center flex-wrap mt-4 bg-[#333333] border-solid border-[#333333] border-2 bg-opacity-40 backdrop-blur-xl rounded-xl">
+              <div>
                 <h1 className='text-2xl font-semibold text-white'>Using Latest Tech Stack</h1>
-                </div>
-            <div className='flex flex-row items-center justify-center'>
-            <img src="/react-svgrepo-com.svg" alt="React" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
-              <img src="/tailwind-svgrepo-com.svg" alt="Tailwind CSS" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
-              <img src="/node-js-svgrepo-com.svg" alt="Node.js" className="h-16 w-auto m-4 drop-shadow-xl" />
-              <img src="/next-js-svgrepo-com.svg" alt="MongoDB" className="h-16 w-auto m-4 drop-shadow-xl" />
-            </div>
-              
-              
+              </div>
+              <div className='flex flex-row items-center justify-center'>
+                <img src="/react-svgrepo-com.svg" alt="React" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
+                <img src="/tailwind-svgrepo-com.svg" alt="Tailwind CSS" className="h-16 w-auto m-4 drop-shadow-xl hover:rotate-90" />
+                <img src="/node-js-svgrepo-com.svg" alt="Node.js" className="h-16 w-auto m-4 drop-shadow-xl" />
+                <img src="/next-js-svgrepo-com.svg" alt="MongoDB" className="h-16 w-auto m-4 drop-shadow-xl" />
+              </div>
             </div>
           </div>
 
@@ -46,8 +42,8 @@ const TechShowcase = () => {
           <div className="w-full lg:w-1/2 flex flex-col space-y-8">
             {/* Custom-Coded Websites */}
             <div className="bg-white shadow-lg rounded-lg p-8 transition-transform transform">
-              <h2 className="text-2xl font-semibold text-center mb-4">Custom-Coded Websites</h2>
-              <ul className="text-left mb-6 space-y-2 text-gray-700">
+              <h2 className="text-2xl font-semibold text-center mb-4 text-[#1C3D5A]">Custom-Coded Websites</h2>
+              <ul className="text-left mb-6 space-y-2 text-[#333333]">
                 <li>✓ Built using the latest tech stack (React, Node.js, etc.)</li>
                 <li>✓ High performance and fast load times</li>
                 <li>✓ Fully customizable to your needs</li>
@@ -58,8 +54,8 @@ const TechShowcase = () => {
 
             {/* No-Code Websites */}
             <div className="bg-white shadow-lg rounded-lg p-8 transition-transform transform">
-              <h2 className="text-2xl font-semibold text-center mb-4">No-Code Websites</h2>
-              <ul className="text-left mb-6 space-y-2 text-gray-700">
+              <h2 className="text-2xl font-semibold text-center mb-4 text-[#1C3D5A]">No-Code Websites</h2>
+              <ul className="text-left mb-6 space-y-2 text-[#333333]">
                 <li>✗ Limited customization options</li>
                 <li>✗ May suffer from performance issues</li>
                 <li>✗ Often lack scalability</li>
