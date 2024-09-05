@@ -2,7 +2,7 @@ import React from 'react';
 
 const TechShowcase = () => {
   return (
-    <div className="bg-cyan-800 min-h-screen py-12">
+    <div className="bg-gradient-to-r from-slate-300 to-slate-400  min-h-screen py-12">
       <div className="container mx-auto px-4">
         {/* Heading Section */}
         <h1 className="text-5xl font-bold text-center mb-12 text-white">Built with the Latest Technology</h1>

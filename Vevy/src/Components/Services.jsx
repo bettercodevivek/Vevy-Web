@@ -3,7 +3,7 @@ import { FaRocket, FaCogs, FaStar } from 'react-icons/fa'; // Import icons
 
 const OurServices = () => {
   return (
-    <div className="bg-gray-100 min-h-screen py-12 font-sans">
+    <div className="bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen py-12 font-sans">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl font-bold text-center mb-12">Our Services</h1>
         
@@ -62,7 +62,7 @@ const OurServices = () => {
               <li>✓ Custom Development Features</li>
             </ul>
             <div className="text-center">
-              <p className="text-3xl font-bold mb-2">₹ 25,000</p>
+              <p className="text-3xl font-bold mb-2">Depends on Requirements(Min. ₹20,000)</p>
               <p className="text-gray-600 mb-6">One-time Payment</p>
               <a href="#contact" className="bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600">Get Started</a>
             </div>
