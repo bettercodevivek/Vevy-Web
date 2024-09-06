@@ -7,7 +7,7 @@ const ServicesPage = () => {
   const plans = [
     {
       title: 'Basic Plan',
-      price: '$299',
+      price: '₹ 7,000',
       features: [
         'Responsive Design',
         'Basic SEO Optimization',
@@ -19,7 +19,7 @@ const ServicesPage = () => {
     },
     {
       title: 'Standard Plan',
-      price: '$499',
+      price: '₹ 12,000',
       features: [
         'Everything in Basic',
         '5 Pages',
@@ -31,7 +31,7 @@ const ServicesPage = () => {
     },
     {
       title: 'Premium Plan',
-      price: '$999',
+      price: 'Base price ₹ 20,000',
       features: [
         'Everything in Standard',
         'Unlimited Pages',
