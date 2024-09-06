@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaNodeJs, FaReact } from 'react-icons/fa';
-import {Fi} from 'react-icons/fi'
+
 
 const TechShowcase = () => {
   return (
@@ -29,10 +28,11 @@ const TechShowcase = () => {
             {/* Technology Logos Section */}
             <div className="flex flex-col justify-center items-center flex-wrap mt-4 p-4">
               
-              <div className='flex flex-row items-center justify-center'>
-                  <FaNodeJs className='h-12 w-12'></FaNodeJs>
-                  <FaReact className='h-12 w-12'></FaReact>
-                  <FaNodeJs className='h-12 w-12'></FaNodeJs>
+              <div className='flex flex-row items-center justify-center gap-4'>
+                  <img src='/react-svgrepo-com.svg' className='h-16 w-16 aspect-square'/>
+                  <img src='/node-js-svgrepo-com.svg' className='h-16 w-16 aspect-square'/>
+                  <img src='/tailwind-css-svgrepo-com.svg' className='h-16 w-16 aspect-square'/>
+                  <img src='/next-js-svgrepo-com.svg' className='h-16 w-16 aspect-square'/>
               </div>
             </div>
           </div>
