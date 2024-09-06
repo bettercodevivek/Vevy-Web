@@ -5,9 +5,10 @@ const Navbar = () => {
     <nav className="bg-black text-white shadow-lg sticky w-full z-50 top-0 left-0 px-8 lg:px-16">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div>
-          <p className="tracking-wider text-2xl font-bold">VWS</p>
-          <p className="font-normal text-sm">Vevy Web Solutions</p>
+        <div className='flex flex-row items-center gap-4'>
+      <img className='invert' src='/logo.png'/>
+          
+          <p className="font-normal text-lg">Vevy Web Solutions</p>
         </div>
 
         {/* Navigation Links */}

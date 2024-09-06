@@ -8,43 +8,46 @@ const ServicesPage = () => {
     {
       title: 'Basic Plan',
       price: '₹ 7,000',
+      message:'One Time Payment Only',
       features: [
-        'Responsive Design',
-        'Basic SEO Optimization',
-        '3 Pages',
-        'Contact Form',
-        '1 Month Free Support',
+        'Unlimited Pages website (on scrolling)',
+        'Top Ranked Website on all Search Engines',
+        'Custom Design of your choice',
+        'Free Updations and Modifications',
+        'Fast Loading time',
       ],
       popular: false,
     },
     {
       title: 'Standard Plan',
       price: '₹ 12,000',
+      message:'One Time Payment Only',
       features: [
         'Everything in Basic',
-        '5 Pages',
-        'Advanced SEO Optimization',
-        'Custom Features',
-        '3 Months Free Support',
+        'Unlimited linked Pages for website',
+        'Top Ranked Website on all Search Engines',
+        'Custom Design of your choice',
+        'Free Support after hosting',
       ],
       popular: true, // Highlight this plan
     },
     {
       title: 'Premium Plan',
       price: 'Base price ₹ 20,000',
+      message:'One Time Payment Only',
       features: [
         'Everything in Standard',
-        'Unlimited Pages',
-        'E-Commerce Integration',
-        'Priority Support',
-        '6 Months Free Support',
+        'E-Commerce Website',
+        'Website with server',
+        'Free Priority Support',
+        'Top Ranked Website on all Search Engines',
       ],
       popular: false,
     },
   ];
 
   return (
-    <div id='Services' className="bg-gray-100 py-16 relative -z-10">
+    <div id='Services' className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-12">Our Services</h1>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
@@ -67,6 +70,7 @@ const ServicesPage = () => {
                 )}
               </div>
               <p className="text-center text-4xl font-bold mb-6">{plan.price}</p>
+              <p className="text-center text-md font-normal mb-6">{plan.message}</p>
               <ul className="space-y-3 mb-6">
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex items-center">
@@ -77,7 +81,7 @@ const ServicesPage = () => {
               </ul>
               <a
                 href="https://wa.me/+918979145539" target='_blank'
-                className="mt-auto bg-black text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+                className="mt-auto bg-black text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 hover:cursor-pointer"
               >
                  Get Your Free Quotation
               </a>
