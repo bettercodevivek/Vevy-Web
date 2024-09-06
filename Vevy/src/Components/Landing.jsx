@@ -72,8 +72,8 @@ const LandingPage = () => {
                 </div>
               </div>
                
-               <div className='text-2xl font-bold pt-24'>
-                BEST<br/> IN <br/> THE<br/> MARKET
+               <div className='text-3xl font-bold pt-24 uppercase'>
+               Grow<br/> Your<br/>  Business<br/> Not<br/>  Your<br/>  Bills!
                </div>
 
               </div>
@@ -90,6 +90,12 @@ const LandingPage = () => {
             </div>
 
             <div className="flex flex-col-reverse items-end justify-end sm:items-center sm:justify-center gap-8 sm:gap-0 mt-8 sm:mt-0 sm:flex-row sm:space-x-8">
+              <div className='sm:hidden flex flex-row gap-8'>
+
+              <div className='text-3xl font-bold pt-24 uppercase'>
+              The<br/> Only<br/> Website<br/> Partner<br/> You<br/> Need!
+               </div>
+
               <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0 mb-8 sm:mb-0">
                 <div className="relative pb-9/16">
                   <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
@@ -98,6 +104,9 @@ const LandingPage = () => {
                   </video>
                 </div>
               </div>
+              </div>
+              
+
               <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3">
                 <div className="relative pb-9/16">
                   <video autoPlay loop muted className="w-full h-full object-cover rounded-lg">
@@ -106,6 +115,7 @@ const LandingPage = () => {
                   </video>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
