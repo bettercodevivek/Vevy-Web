@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white shadow-lg sticky w-full z-50 top-0 left-0 px-6 md:px-24">
+    <nav className="bg-black text-white shadow-lg sticky w-full z-50 top-0 left-0 px-8 lg:px-16">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div>
@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden lg:flex space-x-6">
           <a href="#Home" className="text-white hover:text-blue-600 font-medium">
             Home
           </a>
