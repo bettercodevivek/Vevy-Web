@@ -3,10 +3,10 @@ import React from 'react';
 
 const TechShowcase = () => {
   return (
-    <div id='Technology' className="relative bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen pt-8 pb-4 px-4 sm:px-6 lg:px-12 z-0">
+    <div id='Technology' className="relative -z-10 bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen pt-8 pb-4 px-4 sm:px-6 lg:px-12">
       <div className="container mx-auto">
         {/* Heading Section */}
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-6 sm:mb-8 lg:mb-12 text-black">Built with the Latest Technology</h1>
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-6 sm:mb-8 lg:mb-12 text-black">WHY CHOOSE US</h1>
         <p className="text-lg sm:text-xl lg:text-2xl text-center text-black mb-8 sm:mb-10 lg:mb-12">
           Our websites are custom-coded using the latest technology stack, offering you greater flexibility, scalability, and performance compared to no-code platforms.
         </p>
@@ -40,7 +40,7 @@ const TechShowcase = () => {
           {/* Comparison Section */}
           <div className="w-full lg:w-1/2 flex flex-col space-y-8">
             {/* Custom-Coded Websites */}
-            <div className="bg-white bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-6 sm:p-8 transition-transform transform">
+            <div className="bg-white bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-6 sm:p-8">
               <h2 className="text-xl sm:text-2xl font-semibold text-center mb-4 text-black">Custom-Coded Websites</h2>
               <ul className="text-left mb-6 space-y-2 text-black">
                 <li>✓ Built using the latest tech stack (React, Node.js, etc.)</li>
@@ -52,7 +52,7 @@ const TechShowcase = () => {
             </div>
 
             {/* No-Code Websites */}
-            <div className="bg-white bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-6 sm:p-8 transition-transform transform">
+            <div className="bg-white bg-opacity-30 backdrop-blur-lg shadow-lg rounded-lg p-6 sm:p-8 ">
               <h2 className="text-xl sm:text-2xl font-semibold text-center mb-4 text-black">No-Code Websites</h2>
               <ul className="text-left mb-6 space-y-2 text-black">
                 <li>✗ Limited customization options</li>

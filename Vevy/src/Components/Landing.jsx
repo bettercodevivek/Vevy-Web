@@ -27,12 +27,15 @@ const LandingPage = () => {
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-black">
           Affordable, Effective, and Ready to Launch Your Business Online.
         </p>
+     
         <a
-          href="#video"
+          href="https://wa.me/+918979145539" target='_blank'
           className="bg-white text-black px-8 py-3 md:px-10 md:py-4 lg:px-12 lg:py-4 rounded-full border-2 border-solid border-white text-xl md:text-2xl font-semibold hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
         >
-          Get Started
+          Get Your Free Quotation
+          <FaWhatsapp className='inline pb-1 h-8 w-8 pl-2'></FaWhatsapp>
         </a>
+       
       </section>
 
       {/* Video Section */}
@@ -81,7 +84,7 @@ const LandingPage = () => {
               <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0 mb-8 sm:mb-0">
                 <div className="relative pb-9/16">
                   <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
-                    <source src="/Demo_mobile_2.mp4" type="video/mp4" />
+                    <source src="/Demo_mobile_2.mp4" type="video/mp4" /> 
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -100,7 +103,7 @@ const LandingPage = () => {
       </section>
 
       {/* Fixed Icons */}
-      <div className="fixed bottom-4 right-4 flex flex-col gap-4 z-10">
+      <div className="fixed bottom-4 right-4 flex flex-col gap-4 z-50">
         <button
           onClick={handleCallClick}
           className="bg-black p-4 rounded-full text-white shadow-lg hover:bg-green-500 transition-colors duration-300"
