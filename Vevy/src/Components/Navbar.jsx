@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white shadow-lg sticky w-full z-50 top-0 left-0 px-8 lg:px-16">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+    <nav className="bg-black text-white shadow-lg sticky w-full z-50 top-0 left-0 px-4 md:px-8 lg:px-16">
+      <div className="container mx-auto md:px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className='flex flex-row items-center gap-4'>
       <img className='invert' src='/logo.png'/>

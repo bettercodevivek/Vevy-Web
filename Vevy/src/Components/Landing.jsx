@@ -61,6 +61,8 @@ const LandingPage = () => {
                   </video>
                 </div>
               </div>
+              <div className='sm:hidden flex flex-row gap-8'>
+
               <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
                 <div className="relative pb-9/16">
                   <video autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
@@ -69,6 +71,13 @@ const LandingPage = () => {
                   </video>
                 </div>
               </div>
+               
+               <div className='text-2xl font-bold pt-24'>
+                BEST<br/> IN <br/> THE<br/> MARKET
+               </div>
+
+              </div>
+             
             </div>
           </div>
 
@@ -103,7 +112,7 @@ const LandingPage = () => {
       </section>
 
       {/* Fixed Icons */}
-      <div className="fixed bottom-4 right-4 flex flex-col gap-4 z-50">
+      <div className="fixed bottom-4 right-4 flex flex-col-reverse gap-4 z-50">
         <button
           onClick={handleCallClick}
           className="bg-black p-4 rounded-full text-white shadow-lg hover:bg-green-500 transition-colors duration-300"
