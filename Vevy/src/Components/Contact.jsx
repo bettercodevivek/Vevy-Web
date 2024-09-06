@@ -1,26 +1,25 @@
-// src/ContactUs.jsx
-
 import React from 'react';
 import { FaEnvelope, FaPhoneAlt, FaInstagram } from 'react-icons/fa';
 
 const ContactUs = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-300 to-slate-400  min-h-screen py-12">
-      <div className="container mx-auto px-4">
+    <div className="bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen py-12 flex flex-col justify-center">
+      <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Heading Section */}
         <h1 className="text-4xl font-bold text-center text-black mb-6">Get in Touch</h1>
-        <p className="text-2xl text-center text-black mb-12">
-          Want us to create your website and elevate your digital presence, <span className='font-bold'>call us, ping us on whatsapp or fill the form below.</span>
+        <p className="text-xl md:text-2xl text-center text-black mb-12">
+          Want us to create your website and elevate your digital presence?{' '}
+          <span className="font-bold">Call us, ping us on WhatsApp, or fill out the form below.</span>
         </p>
 
         {/* Main Content Section */}
-        <div className="flex flex-col items-center justify-center gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
           {/* Google Form Embed */}
           <div className="w-full lg:w-2/3 bg-white shadow-lg rounded-lg p-6">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLScTcog-dBxjfjKLNWez5rdDzDBH7bhdtLtOYV66Yw9-ZMS3xw/viewform?usp=sf_link"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeavUOUXDDx7WTuY6nFJOwitIfaxul3uqrt5lWiz9KbYIw_oA/viewform?embedded=true"
               width="100%"
-              height="600"
+              height="700"
               frameBorder="0"
               marginHeight="0"
               marginWidth="0"
@@ -37,15 +36,21 @@ const ContactUs = () => {
             <ul className="text-gray-700 space-y-4">
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-black text-2xl" />
-                <a href="mailto:info@webify.com" className="text-black hover:underline">info@webify.com</a>
+                <a href="mailto:vevywebsolutions@gmail.com" className="text-black hover:underline">
+                vevywebsolutions@gmail.com
+                </a>
               </li>
               <li className="flex items-center space-x-3">
                 <FaPhoneAlt className="text-black text-2xl" />
-                <a href="tel:+1234567890" className="text-black hover:underline">+1 (234) 567-890</a>
+                <a href="tel:+918979145539" className="text-black hover:underline">
+                  +91 8979145539
+                </a>
               </li>
               <li className="flex items-center space-x-3">
                 <FaInstagram className="text-black text-2xl" />
-                <a href="https://www.instagram.com/webify" className="text-black hover:underline">Follow us on Instagram</a>
+                <a href="https://www.instagram.com/webify" className="text-black hover:underline">
+                  Follow us on Instagram
+                </a>
               </li>
             </ul>
           </div>
