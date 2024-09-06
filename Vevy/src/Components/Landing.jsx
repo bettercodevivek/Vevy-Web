@@ -89,7 +89,7 @@ const LandingPage = () => {
               <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3">
                 <div className="relative pb-9/16">
                   <video autoPlay loop muted className="w-full h-full object-cover rounded-lg">
-                    <source src="/Demo2.mp4" type="video/mp4" />
+                    <source src="/Demo2New.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
