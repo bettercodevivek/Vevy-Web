@@ -1,7 +1,7 @@
 // src/LandingPage.jsx
 
 import React from 'react';
-import { FaLock, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
+import { FaLock, FaWhatsapp } from 'react-icons/fa';
 
 const LandingPage = () => {
  
@@ -14,7 +14,7 @@ const LandingPage = () => {
           Get Professional Websites at Prices
           <br className="sm:hidden" /> {/* This line break ensures wrapping on smaller screens */}
           <div className='mt-2 xl:inline'>
-            <span className="bg-black bg-opacity-90 text-white w-fit p-2 rounded-2xl sm:inline-block lg:ml-2 xl:inline mx-auto">
+            <span className="bg-black bg-opacity-90 text-white w-fit p-2 rounded-2xl lg:ml-2 sm:inline-block xl:inline mx-auto">
               That Won’t Break the Bank.
             </span>
           </div>
@@ -50,7 +50,7 @@ const LandingPage = () => {
             <div className="flex flex-col items-start justify-start sm:items-center sm:justify-center sm:flex-row sm:space-x-8 mt-4 sm:mt-0">
               <div className="bg-white bg-opacity-30 p-2 sm:p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3 mb-4 sm:mb-0">
                 <div className="relative pb-9/16">
-                  <video preload='auto' disablePictureInPicture disableRemotePlayback autoPlay loop muted className="w-full h-full object-cover rounded-lg">
+                  <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="w-full h-full object-cover rounded-lg">
                     <source src="/Demo_video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
@@ -60,7 +60,7 @@ const LandingPage = () => {
 
               <div className="bg-white bg-opacity-30 p-2 sm:p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
                 <div className="relative pb-9/16">
-                  <video preload='auto' disablePictureInPicture disableRemotePlayback autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
+                  <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
                     <source src="/Demo_web_mobile.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
@@ -83,7 +83,7 @@ const LandingPage = () => {
               
               <div className="bg-white bg-opacity-30 p-2 sm:p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0 mb-8 sm:mb-0">
                 <div className="relative pb-9/16">
-                  <video preload='auto' disablePictureInPicture disableRemotePlayback autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
+                  <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
                     <source src="/Demo_mobile_2.mp4" type="video/mp4" /> 
                     Your browser does not support the video tag.
                   </video>
@@ -93,7 +93,7 @@ const LandingPage = () => {
 
               <div className="bg-white bg-opacity-30 p-2 sm:p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3">
                 <div className="relative pb-9/16">
-                  <video preload='auto' disablePictureInPicture disableRemotePlayback autoPlay loop muted className="w-full h-full object-cover rounded-lg">
+                  <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="w-full h-full object-cover rounded-lg">
                     <source src="/Demo2New.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
