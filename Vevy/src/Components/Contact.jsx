@@ -41,7 +41,7 @@ const ContactUs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <FaInstagram className="text-black text-2xl" />
-                <a href="https://www.instagram.com/webify" className="text-black hover:underline">
+                <a href="https://www.instagram.com/vevywebsolutions" target='_blank' className="text-black hover:underline">
                   Follow us on Instagram
                 </a>
               </li>
