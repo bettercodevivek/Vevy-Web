@@ -44,7 +44,7 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="hidden lg:flex space-x-6">
-          <a href="#Home" className="text-white hover:text-blue-600 font-medium">
+          <a href="#" className="text-white hover:text-blue-600 font-medium">
             Home
           </a>
           <a href="#Services" className="text-white hover:text-blue-600 font-medium">

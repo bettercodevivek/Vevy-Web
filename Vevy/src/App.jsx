@@ -5,10 +5,10 @@ import Navbar from "./Components/Navbar";
 
 const App = () =>{
   return(
-        <React.Fragment>
+        <div className="webkit">
           <Navbar/>
           <Homepage/>
-        </React.Fragment>
+        </div>
   );
 }
 
