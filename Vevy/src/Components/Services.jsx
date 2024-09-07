@@ -1,14 +1,12 @@
-// src/ServicesPage.jsx
-
 import React from 'react';
-import { FaCheck, FaCheckCircle, FaCircle } from 'react-icons/fa';
+import { FaCheckCircle } from 'react-icons/fa';
 
 const ServicesPage = () => {
   const plans = [
     {
       title: 'Basic Plan',
       price: '₹ 7,000',
-      message:'One Time Payment Only',
+      message: 'One Time Payment Only',
       features: [
         'Unlimited Pages website (on scrolling)',
         'Top Ranked Website on all Search Engines',
@@ -21,7 +19,7 @@ const ServicesPage = () => {
     {
       title: 'Standard Plan',
       price: '₹ 12,000',
-      message:'One Time Payment Only',
+      message: 'One Time Payment Only',
       features: [
         'Everything in Basic',
         'Unlimited linked Pages for website',
@@ -33,8 +31,8 @@ const ServicesPage = () => {
     },
     {
       title: 'Premium Plan',
-      price: 'Base price ₹ 20,000',
-      message:'One Time Payment Only',
+      price: '₹ 20,000',
+      message: 'One Time Payment Only',
       features: [
         'Everything in Standard',
         'E-Commerce Website',
@@ -58,7 +56,7 @@ const ServicesPage = () => {
                 plan.popular ? 'border-4 border-black' : ''
               }`}
             >
-              <div className="text-center mb-4">
+              <div className="text-center mb-2">
                 <FaCheckCircle className="text-black inline-block mb-2" size={32} />
                 <h2 className="text-2xl font-semibold">
                   {plan.title}
@@ -69,11 +67,14 @@ const ServicesPage = () => {
                   </span>
                 )}
               </div>
-              <p className="text-center text-4xl font-bold mb-6">{plan.price}</p>
-              <p className="text-center text-md font-normal mb-6">{plan.message}</p>
-              <ul className="space-y-3 mb-6">
+              <p className="text-center xs:text-2xl text-4xl font-bold sm:mb-6 mb-2">{plan.price}</p>
+              <p className="text-center text-sm sm:text-lg font-normal sm:mb-6 mb-2">{plan.message}</p>
+              <ul className="space-y-3 mb-4 text-xs sm:text-lg sm:mb-6">
                 {plan.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-center">
+                  <li
+                    key={idx}
+                    className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left"
+                  >
                     <FaCheckCircle className="text-black mr-2 hidden sm:flex" /> 
                     {feature}
                   </li>
@@ -81,9 +82,9 @@ const ServicesPage = () => {
               </ul>
               <a
                 href="https://wa.me/+918979145539" target='_blank'
-                className="mt-auto bg-black text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-700 hover:cursor-pointer"
+                className="mt-auto bg-black text-white text-center py-3 text-xs sm:text-sm rounded-lg font-semibold hover:bg-blue-700 hover:cursor-pointer"
               >
-                 Get Your Free Quotation
+                Get Your Free Quotation
               </a>
             </div>
           ))}
