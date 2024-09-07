@@ -15,7 +15,7 @@ const LandingPage = () => {
 
   return (
     <div id='Home' className="min-h-screen-2xl relative z-0 font-sans">
-      <section className="bg-gradient-to-r from-slate-300 to-slate-400 text-center py-16 px-4">
+      <section className="bg-gradient-to-r from-slate-300 to-slate-300 text-center py-16 px-4">
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold mb-6 text-black">
           Get Professional Websites at Prices
           <br className="sm:hidden" /> {/* This line break ensures wrapping on smaller screens */}
@@ -40,7 +40,7 @@ const LandingPage = () => {
       </section>
 
       {/* Video Section */}
-      <section id="video" className="bg-gradient-to-r from-slate-300 to-slate-400">
+      <section id="video" className="bg-gradient-to-r from-slate-300 to-slate-300">
         <div className="container mx-auto px-0 sm:px-8">
           <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 text-black">
             See Our Work | Quality Websites, Real Results

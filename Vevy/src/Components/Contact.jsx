@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhoneAlt, FaInstagram, FaWarehouse } from 'react-icons/fa
 
 const ContactUs = () => {
   return (
-    <div id='Contact' className="bg-gradient-to-r from-slate-300 to-slate-400 min-h-screen py-12 flex flex-col justify-center">
+    <div id='Contact' className="bg-gradient-to-r from-slate-300 to-slate-300 min-h-screen py-12 flex flex-col justify-center">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Heading Section */}
         <h1 className="text-4xl font-bold text-center text-black mb-6">Get in Touch</h1>
