@@ -57,8 +57,8 @@ const LandingPage = () => {
 
               <div className="bg-white bg-opacity-30 p-2 sm:p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
                 <div className="relative pb-9/16">
-                  <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
-                    <source src="/Demo_web_mobile.mp4" type="video/mp4" />
+                <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="xl:h-96 lg:h-80 md:h-72 sm:h-60 h-96 object-cover rounded-lg">
+                    <source src="/Demo-lhd-mobile.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
