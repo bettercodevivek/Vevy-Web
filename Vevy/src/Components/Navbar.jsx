@@ -36,7 +36,7 @@ const Navbar = () => {
         {/* Get Started Button */}
         {showPromptNav && (
           <div id='promptnav' className='sm:hidden bg-white text-black p-2 rounded-full -mr-8'>
-            <a href='#' className='text-sm font-semibold'>
+            <a href='tel:+918979145539' className='text-sm font-semibold'>
               Call Us Now!
             </a>
           </div>

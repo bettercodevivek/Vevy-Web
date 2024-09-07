@@ -15,11 +15,11 @@ const ContactUs = () => {
         {/* Main Content Section */}
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
           {/* Google Form Embed */}
-          <div className="w-full lg:w-2/3 bg-white shadow-lg rounded-lg p-6">
+          <div className="w-1/2 lg:w-2/3 bg-white backdrop-blur-lg bg-opacity-30 shadow-lg rounded-lg p-6">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeavUOUXDDx7WTuY6nFJOwitIfaxul3uqrt5lWiz9KbYIw_oA/viewform?embedded=true"
-              width="100%"
-              height="700"
+              width="80%"
+              height="500"
               frameBorder="0"
               marginHeight="0"
               marginWidth="0"
