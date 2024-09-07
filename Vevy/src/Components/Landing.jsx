@@ -61,7 +61,7 @@ const LandingPage = () => {
                   </video>
                 </div>
               </div>
-              <div className='sm:hidden flex flex-row gap-8'>
+     
 
               <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0">
                 <div className="relative pb-9/16">
@@ -71,12 +71,7 @@ const LandingPage = () => {
                   </video>
                 </div>
               </div>
-               
-               <div className='text-3xl font-bold pt-24 uppercase'>
-               Grow<br/> Your<br/>  Business<br/> Not<br/>  Your<br/>  Bills!
-               </div>
 
-              </div>
              
             </div>
           </div>
@@ -90,11 +85,8 @@ const LandingPage = () => {
             </div>
 
             <div className="flex flex-col-reverse items-end justify-end sm:items-center sm:justify-center gap-8 sm:gap-0 mt-8 sm:mt-0 sm:flex-row sm:space-x-8">
-              <div className='sm:hidden flex flex-row gap-8'>
+              
 
-              <div className='text-3xl font-bold pt-24 uppercase'>
-              The<br/> Only<br/> Website<br/> Partner<br/> You<br/> Need!
-               </div>
 
               <div className="bg-white bg-opacity-30 p-4 backdrop-blur-lg rounded-xl shadow-xl flex-shrink-0 mb-8 sm:mb-0">
                 <div className="relative pb-9/16">
@@ -103,7 +95,6 @@ const LandingPage = () => {
                     Your browser does not support the video tag.
                   </video>
                 </div>
-              </div>
               </div>
               
 
