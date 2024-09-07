@@ -45,7 +45,7 @@ const LandingPage = () => {
             See Our Work | Quality Websites, Real Results
           </h2>
           <div>
-            <div className="flex flex-row items-center justify-start xs:text-xs sm:text-sm lg:ml-16 lg:m-4 xl:ml-24 xl:m-4 2xl:ml-32 2xl:m-4">
+            <div className="flex flex-row items-center justify-start xs:text-sm sm:text-sm lg:ml-16 lg:m-4 xl:ml-24 xl:m-4 2xl:ml-32 2xl:m-4">
               <div className="flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-lg sm:rounded-xl gap-2 px-4 py-2 sm:px-4 sm:py-4 w-max hover:text-white hover:cursor-pointer">
                 <FaLock />
                 <a href="https://lhdhumancare.com/">https://lhdhumancare.com/</a>
@@ -77,7 +77,7 @@ const LandingPage = () => {
           </div>
 
           <div className="sm:py-12 xs:py-4">
-            <div className="m-4 xs:-mb-4 xl:mr-24 lg:mr-16 2xl:mr-32 -mr-0.5 xs:text-xs sm:text-sm flex flex-row items-center justify-end">
+            <div className="m-4 xs:-mb-4 sm:mb-4 xl:mr-24 lg:mr-16 2xl:mr-32 -mr-0.5 xs:text-sm sm:text-sm flex flex-row items-center justify-end">
               <div className="flex items-center bg-white bg-opacity-30 backdrop-blur-lg shadow-xl rounded-lg sm:rounded-xl gap-2 px-4 py-2 sm:px-4 sm:py-4 hover:text-white hover:cursor-pointer">
                 <FaLock />
                 <a href="https://jbansicucare.com/">https://jbansicucare.com/</a>
