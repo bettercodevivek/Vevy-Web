@@ -9,7 +9,7 @@ const TechShowcase = () => {
         <h1 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-center mb-6 sm:mb-8 lg:mb-12 text-black">WHY CHOOSE US</h1>
         <p className="text-md sm:text-xl lg:text-2xl text-center text-black mb-8 sm:mb-10 lg:mb-12">
         <span className='font-bold text-lg sm:text-3xl'>Affordable, Custom Websites That Work for Your Business</span><br/>
-        We understand small businesses because we are one. Get a professional website that drives results without breaking the bank. No templates, no shortcuts—just a site built specifically for you, ready to bring in more customers."
+        We understand small businesses because we are one. Get a professional website that drives results without breaking the bank. No templates, no shortcuts—just a site built specifically for you, ready to bring in more customers.
         </p>
 
         {/* Main Content Section */}

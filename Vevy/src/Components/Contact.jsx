@@ -1,9 +1,9 @@
 import React from 'react';
-import { FaEnvelope, FaPhoneAlt, FaInstagram, FaWarehouse } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaInstagram } from 'react-icons/fa';
 
 const ContactUs = () => {
   return (
-    <div id='Contact' className="bg-gradient-to-r from-slate-300 to-slate-300 min-h-screen py-12 flex flex-col justify-center">
+    <div id='Contact' className="bg-gradient-to-r from-slate-300 to-slate-300 min-h-screen xs:py-8 sm:py-0 xl:py-0 flex flex-col justify-center">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Heading Section */}
         <h1 className="text-4xl font-bold text-center text-black mb-6">Get in Touch</h1>
@@ -13,14 +13,19 @@ const ContactUs = () => {
         </p>
 
         {/* Main Content Section */}
-        <div className=" flex flex-col lg:flex-row items-center justify-center gap-8">
-          {/* Google Form Embed */}
-          <div className="xs:w-max sm:w-full lg:w-2/3 bg-white backdrop-blur-lg bg-opacity-30 shadow-lg rounded-lg sm:p-6 py-6 px-4">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeavUOUXDDx7WTuY6nFJOwitIfaxul3uqrt5lWiz9KbYIw_oA/viewform?embedded=true" 
-          width="100%" 
-          height="500">
-            Loading…
-            </iframe>
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
+          {/* Prompt to Google Form */}
+          <div className="w-full lg:w-2/3 bg-white text-black shadow-lg rounded-lg p-8 text-center">
+            <h2 className="text-2xl font-semibold mb-4">Ready to Get Started?</h2>
+            <p className="text-lg mb-6">
+              We're excited to work with you! Click the button below to tell us more about your project.
+            </p>
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeavUOUXDDx7WTuY6nFJOwitIfaxul3uqrt5lWiz9KbYIw_oA/viewform?embedded=true" 
+              target="_blank" 
+              className="bg-black text-white font-bold py-3 px-6 rounded-full hover:bg-blue-500 transition">
+              Fill Out the Form
+            </a>
           </div>
 
           {/* Contact Information */}
@@ -30,7 +35,7 @@ const ContactUs = () => {
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-black text-2xl" />
                 <a href="mailto:vevywebsolutions@gmail.com" className="text-black hover:underline">
-                Mail Us
+                  Mail Us
                 </a>
               </li>
               <li className="flex items-center space-x-3">
@@ -41,7 +46,7 @@ const ContactUs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <FaInstagram className="text-black text-2xl" />
-                <a href="https://www.instagram.com/vevywebsolutions" target='_blank' className="text-black hover:underline">
+                <a href="https://www.instagram.com/vevywebsolutions" target="_blank" className="text-black hover:underline">
                   Follow us on Instagram
                 </a>
               </li>

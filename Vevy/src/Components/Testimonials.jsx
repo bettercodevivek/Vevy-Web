@@ -3,8 +3,8 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const testimonials = [
   {
-    name: 'LHD Human Care PVT. LTD.',
-    title: 'Pharmaceutical Company, Meerut',
+    name: 'LHD Human Care',
+    title: 'Pharmaceutical Company, New Delhi',
     testimonial: 'exceeded our expectations with the website they developed for us. The entire process was seamless and well-coordinated, with their team paying meticulous attention to our requirements. They delivered a website that not only looks exceptional but also performs flawlessly. Their proficiency in modern web technologies is evident, and we’ve already received significant positive feedback.',
     image: 'https://i.postimg.cc/Y0S5LMn7/LHD-Human-Care-Logo-1.png',
     website: 'https://www.lhdhumancare.com', 
