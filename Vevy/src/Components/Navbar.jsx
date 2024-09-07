@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Get Started Button */}
         <div id='promptnav' className='sm:hidden bg-white text-black p-2 rounded-full -mr-8'>
           <a href='#' className='text-sm font-semibold'>
-            Get Your Website Now!
+            Call Us Now!
           </a>
         </div>
 
