@@ -1,22 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Homepage from "./Pages/Homepage";
-import Preloader from "./Components/Preloader101";
+import Navbar from "./Components/Navbar";
 
 const App = () =>{
-
-  const [loading,Setloading] = useState(true);
-
-  useEffect(()=>{
-    const loadtimeout=setTimeout(()=>{
-      Setloading(false);
-    },5000)
-    return () => clearTimeout(loadtimeout);
-  },[])
-
   return(
-        <div>
-          {loading ? <Preloader /> : <Homepage />}
-        </div>
+        <React.Fragment>
+          <Navbar/>
+          <Homepage/>
+        </React.Fragment>
   );
 }
 
