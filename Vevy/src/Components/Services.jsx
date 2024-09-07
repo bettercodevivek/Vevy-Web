@@ -1,7 +1,7 @@
 // src/ServicesPage.jsx
 
 import React from 'react';
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheck, FaCheckCircle, FaCircle } from 'react-icons/fa';
 
 const ServicesPage = () => {
   const plans = [
@@ -74,7 +74,7 @@ const ServicesPage = () => {
               <ul className="space-y-3 mb-6">
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex items-center">
-                    <FaCheckCircle className="text-black mr-2" />
+                    <FaCheckCircle className="text-black mr-2 hidden sm:flex" /> 
                     {feature}
                   </li>
                 ))}

@@ -12,6 +12,7 @@ const LandingPage = () => {
     window.open('https://wa.me/+918979145539', '_blank'); // Replace with your WhatsApp number
   };
 
+
   return (
     <div id='Home' className="min-h-screen-2xl relative z-0 font-sans">
       <section className="bg-gradient-to-r from-slate-300 to-slate-400 text-center py-16 px-4">
