@@ -69,7 +69,7 @@ const ServicesPage = () => {
               </div>
               <p className="text-center xs:text-2xl text-4xl font-bold sm:mb-6 mb-2">{plan.price}</p>
               <p className="text-center text-sm sm:text-lg font-normal sm:mb-6 mb-2">{plan.message}</p>
-              <ul className="space-y-3 mb-4 text-xs sm:text-lg sm:mb-6">
+              <ul className="space-y-3 mb-4 text-sm font-semibold sm:text-lg sm:mb-6">
                 {plan.features.map((feature, idx) => (
                   <li
                     key={idx}
