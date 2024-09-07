@@ -50,10 +50,7 @@ const LandingPage = () => {
             <div className="flex flex-col items-start justify-start sm:items-center sm:justify-center sm:flex-row sm:space-x-8 mt-4 sm:mt-0">
               <div className="bg-white bg-opacity-30 p-2 sm:p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3 mb-4 sm:mb-0">
                 <div className="relative pb-9/16">
-                  <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="w-full h-full object-cover rounded-lg">
-                    <source src="/Demo_video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                 <img className='rounded-lg' src='/LhdScreenshot.webp'/>
                 </div>
               </div>
      
@@ -93,10 +90,7 @@ const LandingPage = () => {
 
               <div className="bg-white bg-opacity-30 p-2 sm:p-4 backdrop-blur-lg shadow-xl rounded-xl flex-shrink-0 w-full md:w-3/4 lg:w-2/3">
                 <div className="relative pb-9/16">
-                  <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="w-full h-full object-cover rounded-lg">
-                    <source src="/Demo2New.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                <img className='rounded-lg' src='/JbansScreenshot.webp'/>
                 </div>
               </div>
               
