@@ -19,7 +19,10 @@ const TechShowcase = () => {
           <div className="flex flex-col justify-center w-full lg:w-1/2">
             <div className="bg-white bg-opacity-40 backdrop-blur-xl p-2 shadow-xl rounded-lg overflow-hidden w-full mb-4 lg:mb-0">
               <div className="relative pb-9/16">
-                <img src='/Coding-Demo(1).gif' className='h-96'/>
+                <video disablePictureInPicture disableRemotePlayback autoPlay loop muted className="w-full h-full object-cover rounded-lg">
+                  <source src="/Coding-Demo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
 
