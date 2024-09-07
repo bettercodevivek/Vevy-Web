@@ -1,13 +1,13 @@
 import React from 'react';
 
-
-window.onscroll=()=>{
-  if(window.scrollY > 300){
-    document.getElementById('promptnav').style.display='flex';
-    document.getElementById('logoname').style.display='none';
+window.onscroll = () => {
+  if (window.scrollY > 300) {
+    document.getElementById('promptnav').style.display = 'flex';
+    document.getElementById('logoname').style.display = 'none';
+  } else {
+    document.getElementById('promptnav').style.display = 'none';
+    document.getElementById('logoname').style.display = 'block';
   }
-  else 
-  document.getElementById('promptnav').style.display='none';
 }
 
 const Navbar = () => {
@@ -16,12 +16,11 @@ const Navbar = () => {
       <div className="container mx-auto xs:px-4 md:px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className='flex flex-row items-center justify-start xs:gap-2 gap-4 sm:gap-4'>
-      <img className='invert xs:h-8 xs:w-8 sm:h-8 sm:w-8' src='/logo.png'/>
-          
+          <img className='invert xs:h-8 xs:w-8 sm:h-8 sm:w-8' src='/logo.png' alt='logo'/>
           <p id='logoname' className="font-normal xs:text-sm sm:text-xl sm:font-bold font-mono">Vevy Web Solutions</p>
         </div>
        
-       {/* Get Started Button */}
+        {/* Get Started Button */}
         <div id='promptnav' className='sm:hidden bg-white text-black p-2 rounded-full -mr-8'>
           <a href='#' className='text-sm font-semibold'>
             Get Your Website Now!
