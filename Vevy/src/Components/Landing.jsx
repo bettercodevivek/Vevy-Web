@@ -33,7 +33,7 @@ const LandingPage = () => {
           className="bg-white text-black px-8 py-3 md:px-10 md:py-4 lg:px-12 lg:py-4 rounded-full border-2 border-solid border-white xs:text-sm text-lg md:text-2xl font-semibold hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
         >
           Get Your Free Quotation
-          <FaWhatsapp className='inline xs:h-6 xs:w-6 pb-1 h-8 w-8 pl-2'></FaWhatsapp>
+          <FaWhatsapp className='inline xs:h-6 xs:w-6 sm:h-8 sm:w-8 pb-1 h-8 w-8 pl-2'></FaWhatsapp>
         </a>
        
       </section>
