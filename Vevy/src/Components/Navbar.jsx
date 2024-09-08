@@ -51,7 +51,7 @@ const Navbar = () => {
             Our Services
           </a>
           <a href="#Technology" className="text-white hover:text-blue-600 font-medium">
-            Our Technology 
+            Why Choose Us
           </a>
           <a href="#Testimonials" className="text-white hover:text-blue-600 font-medium">
             Our Testimonials
