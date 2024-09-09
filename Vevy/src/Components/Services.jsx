@@ -5,7 +5,7 @@ const ServicesPage = () => {
   const plans = [
     {
       title: 'Basic Plan',
-      price: '₹ 8,000',
+      price: '₹ 10,000',
       message: 'One Time Payment Only',
       features: [
         'Unlimited Pages website (on scrolling)',
@@ -18,7 +18,7 @@ const ServicesPage = () => {
     },
     {
       title: 'Standard Plan',
-      price: '₹ 14,000',
+      price: '₹ 15,000',
       message: 'One Time Payment Only',
       features: [
         'Everything in Basic',
@@ -31,7 +31,7 @@ const ServicesPage = () => {
     },
     {
       title: 'Premium Plan',
-      price: '₹ 20,000',
+      price: '₹ 25,000',
       message: 'One Time Payment Only',
       features: [
         'Everything in Standard',
