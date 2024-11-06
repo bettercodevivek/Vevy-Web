@@ -40,8 +40,8 @@ const ContactUs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <FaPhoneAlt className="text-black text-2xl" />
-                <a href="tel:+918979145539" className="text-black hover:underline">
-                  +91 8979145539
+                <a href="tel:+91xxxxxxxx" className="text-black hover:underline">
+                  +91
                 </a>
               </li>
               <li className="flex items-center space-x-3">

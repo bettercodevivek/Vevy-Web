@@ -8,11 +8,11 @@ import { FaPhoneAlt,FaWhatsapp } from "react-icons/fa";
 
 const Homepage = () =>{
   const handleCallClick = () => {
-    window.location.href = 'tel:+918979145539'; // Replace with your phone number
+    window.location.href = 'tel:+91'; // Replace with your phone number
   };
 
   const handleWhatsappClick = () => {
-    window.open('https://wa.me/+918979145539', '_blank'); // Replace with your WhatsApp number
+    window.open('https://wa.me/+91', '_blank'); // Replace with your WhatsApp number
   };
     return(
       <div className="max-w-screen-2xl mx-auto overflow-hidden">
